@@ -36,6 +36,9 @@ body {
     margin: 0.5em;
     transition: transform 0.3s ease;
     line-height: 0.9;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
     
 } 
 
