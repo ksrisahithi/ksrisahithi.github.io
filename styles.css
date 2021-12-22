@@ -1,0 +1,107 @@
+:root {
+    --background-color: #ffcbcb;
+    --heading-color:#45171d;
+    --nav-btn-color:#f03861;
+    --bio-color:#900048;
+    --nav-btn-text-color:#feffdf;
+}
+body {
+    background: var(--background-color);
+
+}
+
+
+.header {
+    font-family: 'Press Start 2P', cursive;
+    color: var(--heading-color);
+    padding-top: 4em;
+    text-align: center;
+}
+
+
+.nav-btn {
+    color: var(--nav-btn-text-color);
+    padding-top: 3em;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Murecho', sans-serif;
+}
+
+.nav-btn>div {
+    overflow: hidden;
+    background-color: var(--nav-btn-color); 
+    border-radius: 0.25em;
+    padding: 0.5em;
+    display: inline-block;
+    margin: 0.5em;
+    transition: transform 0.3s ease;
+    line-height: 0.9;
+    
+} 
+
+.nav-btn >div:hover {
+    transform: translate(0px,-6px);
+}
+
+#about_content>div.bio {
+    font-family: 'Arvo', serif;
+    color: var(--bio-color);
+}
+
+#about_content>div {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0.1em 0.5em;
+    margin: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#about_content>div>div {
+    font-family: 'Inconsolata', monospace;
+    padding: 0 0.1em;
+    display: inline-block;
+    margin: 0.5em;
+    vertical-align:top;
+}
+
+
+.about_heading {
+    font-weight: bold;
+    color: #b35050;
+}
+
+.content_heading {
+    color: #992851;
+    font-weight: bold;
+    padding-top: 0.1em;
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: 'Donegal One', serif;
+}
+
+#contact_content>div {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0.1em 0.5em;
+    margin: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+#github_content {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 0.1em 0.5em;
+    margin: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.hidden {
+    display: none;
+}
