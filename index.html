@@ -1,88 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Donegal+One&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Murecho&display=swap"
-            rel="stylesheet"
-        />
-        <script src="main.js" async></script>
-        <title>Sri Sahithi</title>
-    </head>
 
-    <body>
-        <div class="header">
-            <h1>Sahithi Kodihalli</h1>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2182b01a00.js" crossorigin="anonymous"></script>
+    <script src="main.js" async></script>
+    <title>Sri Sahithi</title>
+</head>
+
+<body>
+    <div class="header">
+        <!-- <div class="innerheader"> -->
+        <div class="logo">
+            <h1>Sri.</h1>
         </div>
-        <div class="nav-btn">
-            <div id="about_btn" onclick="showAbout()">About</div>
-            <div id="contact_btn" onclick="showContact()">Contact</div>
-            <div id="github_btn" onclick="showGithub()">Github</div>
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/13-hUrGE78RQ7JkciP1cuzLOQnnK1rX9Z/view?usp=sharing" target="_blank">Resume</a></li>
+            </ul>
+            <!-- </div> -->
         </div>
-        <div id="info">
-            <div></div>
+    </div>
+    <div class="home">
+        <h1 class="heading">Hi, I'm Sri Sahithi Kodihalli.</h1>
+        <div class="text">
+        <p>I am an undergrad computer science student studying at Government SKSJTI. I'm highly motivated and am passionate about developing. I love learning how computers work, how they interact with the human world, and what makes them tick. I am excited to learn more about this field and continue contributing to the world around me through technology.</p>
+        <p>I've always been passionate about learning new things, whether reading a book or watching a movie—I just can't get enough of it!    
+        </p>
         </div>
-        <div id="about_content">
-            <h2 class="content_heading">About</h2>
-            <div class="bio">
-                Computer Science Engineering Student
-            </div>
-            <div class="about_list">
-                <div class="about_heading">Interests:</div>
-                <div class="about_interest">coding</div>
-                <div class="about_interest">sketching</div>
-                <div class="about_interest">painting</div>
-                <div class="about_interest">desgining</div>
-                <div class="about_interest">music</div>
-                <div class="about_interest">books</div>
-            </div>
-            <div class="about_list">
-                <div class="about_heading">Exploring:</div>
-                <div class="about_exploring">python</div>
-                <div class="about_exploring">C/C++</div>
-                <div class="about_exploring">javascript</div>
-                <div class="about_exploring">css</div>
-                <div class="about_exploring">html</div>
-                <div class="about_exploring">blender</div>
-                <div class="about_exploring">gimp</div>
-                <div class="about_exploring">inkscape</div>
-            </div>
-            <div class="about_list">
-                <div class="about_heading">Operating Systems:</div>
-                <div class="about_os">Windows 10</div>
-                <div class="about_os">Ubuntu 20.04</div>
-            </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/sri-sahithi-kodihalli-83a55a228/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+            <a href="https://discordapp.com/users/760868570711195689" target="_blank"><i class="fa-brands fa-discord fa-xl"></i></a>
+            <a href="mailto:srisahithi333@gmail.com"><i class="fa-regular fa-envelope fa-xl"></i></a>
+            <a href="https://github.com/ksrisahithi" target="_blanks"><i class="fa-brands fa-github fa-xl"></i></a>
         </div>
-        <div id="contact_content" class="hidden">
-            <h2 class="content_heading">Contact</h2>
-            <div>srisahithi333@gmail.com</div>
-            <div>Discord username: kaywaii#5963</div>
-        </div>
-        <div id="github_content" class="hidden"></div>
-    </body>
+    </div>
+</body>
+
 </html>
